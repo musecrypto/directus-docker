@@ -20,7 +20,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: violinio/directus-snipe
+          images: carlosbsc/directus-snipe
 
       -
         name: Login to DockerHub
